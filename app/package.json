@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "startAll": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon ./backend/src/index",
-    "client": "vite ./frontend/react"
+    "client": "vite ./frontend"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
